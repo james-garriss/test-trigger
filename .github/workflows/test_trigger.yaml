@@ -7,6 +7,8 @@ jobs:
   trigger-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Call print
-        run: python3 test.py
+      - run: |
+          pwd
+          python3 --version
+          python3 test.py
       
