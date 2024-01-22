@@ -1,0 +1,12 @@
+name: Trigger Test
+
+on:
+  push:
+
+jobs:
+  trigger-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call print
+        run: python3 /print.py
+      
