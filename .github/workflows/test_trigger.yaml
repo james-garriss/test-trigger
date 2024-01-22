@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call print
-        run: python3 /test.py
+        run: python3 ./test.py
       
