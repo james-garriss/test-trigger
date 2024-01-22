@@ -9,5 +9,6 @@ jobs:
     steps:
       - run: |
           pwd
+          ls -al
           python3 --version
           python3 ${GITHUB_WORKSPACE}/test.py
