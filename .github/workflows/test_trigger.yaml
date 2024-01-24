@@ -2,6 +2,7 @@ name: Trigger Test
 
 on:
   push:
+  pull_request:
 
 jobs:
   trigger-test:
