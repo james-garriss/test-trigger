@@ -1,4 +1,4 @@
-name: Trigger Test
+name: Trigger Test 2
 
 on:
   push:
